@@ -9,6 +9,8 @@ dataSources:
     network: rinkeby
     source:
       address: "0x0ddff327ddf7fe838e3e63d02001ef23ad1ede8e"
+      startBlock: 36935000 # mainnet
+      # startBlock: 55095000 # testnet
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events
